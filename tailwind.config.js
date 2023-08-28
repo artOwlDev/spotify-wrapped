@@ -5,7 +5,14 @@ export default {
     extensions: ['.js', '.jsx', '.ts', '.tsx', 'cgs', 'mgs'],
   },
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primaryBg: "#101827"
+      }
+      ,spacing: {
+        '100' :'600px'
+      }
+    },
   },
   plugins: [],
 }
